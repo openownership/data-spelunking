@@ -1,0 +1,10 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+gem 'parallel'
+gem 'activesupport'
+gem 'oj'
+gem 'xxhash'
+gem 'pry'
+gem 'hashdiff'

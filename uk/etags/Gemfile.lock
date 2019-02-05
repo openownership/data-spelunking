@@ -1,0 +1,38 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (5.2.2)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 0.7, < 2)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+    coderay (1.1.2)
+    concurrent-ruby (1.1.4)
+    hashdiff (0.3.8)
+    i18n (1.5.3)
+      concurrent-ruby (~> 1.0)
+    method_source (0.9.2)
+    minitest (5.11.3)
+    oj (3.7.8)
+    parallel (1.13.0)
+    pry (0.12.2)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
+    thread_safe (0.3.6)
+    tzinfo (1.2.5)
+      thread_safe (~> 0.1)
+    xxhash (0.4.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  activesupport
+  hashdiff
+  oj
+  parallel
+  pry
+  xxhash
+
+BUNDLED WITH
+   1.17.1
